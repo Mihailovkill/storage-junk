@@ -52,12 +52,16 @@
   cursor: pointer;
 }
 
+.dropdownMenuContainer button:hover {
+  background: #0056b3;
+}
+
 .dropdownMenu {
   position: absolute;
   right: 0;
   top: 100%;
   background: #fff;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 4px;
 }

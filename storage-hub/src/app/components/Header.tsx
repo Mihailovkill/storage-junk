@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import styles from "../../styles/components/Header.module.css";
+import styles from "@/styles/components/Header.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "./Navbar";
+import LoginButton from "./Buttons/LoginButton";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,9 @@ const Header = () => {
         </div>
       </div>
       <div className={styles.searchContainer}></div>
-      <div className={styles.loginContainer}></div>
+      <div className={styles.loginContainer}>
+        <LoginButton />
+      </div>
       <div
         className={styles.dropdownMenuContainer}
         onClick={() => setIsOpen(!isOpen)}
