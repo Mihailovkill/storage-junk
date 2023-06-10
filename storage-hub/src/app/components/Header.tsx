@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "../../styles/components/Header.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import Navbar from "./Navbar";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,11 +32,9 @@ const Header = () => {
           ></Image>
         </button>
         {isOpen && (
-          <ul className={styles.dropdownMenu}>
-            <li>Profile</li>
-            <li>My account</li>
-            <li>Logout</li>
-          </ul>
+          <div className={styles.dropdownMenu}>
+            <Navbar />
+          </div>
         )}
       </div>
     </div>
