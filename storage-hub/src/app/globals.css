@@ -38,7 +38,7 @@ button {
 }
 
 button:hover {
-  background: #0056b3;
+  background: rgb(4, 197, 85);
 }
 
 /* Container class for centering and constraining content width */
