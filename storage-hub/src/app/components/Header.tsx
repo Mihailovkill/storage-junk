@@ -19,26 +19,28 @@ const Header = () => {
         </div>
       </div>
       <div className={styles.searchContainer}></div>
-      <div className={styles.loginContainer}>
-        <LoginButton />
-      </div>
-      <div
-        className={styles.dropdownMenuContainer}
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <button>
-          <Image
-            src={"/icons/menuButton.png"}
-            width={30}
-            height={20}
-            alt="menu"
-          ></Image>
-        </button>
-        {isOpen && (
-          <div className={styles.dropdownMenu}>
-            <Navbar />
-          </div>
-        )}
+      <div className={styles.actionContainer}>
+        <div className={styles.loginContainer}>
+          <LoginButton />
+        </div>
+        <div
+          className={styles.dropdownMenuContainer}
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <button>
+            <Image
+              src={"/icons/menuButton.png"}
+              width={30}
+              height={20}
+              alt="menu"
+            ></Image>
+          </button>
+          {isOpen && (
+            <div className={styles.dropdownMenu}>
+              <Navbar />
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

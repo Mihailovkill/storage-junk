@@ -30,6 +30,14 @@ export default function Home() {
           title="Code Snippets"
           description="Keep your code snippets for future reference."
         />
+        <OverviewCard
+          title="To-do Lists"
+          description="Stay organized with our intuitive to-do list feature."
+        />
+        <OverviewCard
+          title="Calendar Events"
+          description="Never miss any event with our event planning feature."
+        />
       </div>
     </main>
   );

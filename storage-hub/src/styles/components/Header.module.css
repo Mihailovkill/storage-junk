@@ -15,6 +15,7 @@
 .logoContainer {
   display: flex;
   align-items: center;
+  top: 10px;
 }
 
 .logo {
@@ -37,12 +38,10 @@
 
 .loginContainer {
   display: flex;
-  align-items: center;
 }
 
 .dropdownMenuContainer {
   display: flex;
-  align-items: center;
   position: relative;
 }
 
@@ -64,4 +63,9 @@
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 4px;
+}
+
+.actionContainer {
+  display: flex;
+  align-self: flex-end;
 }
