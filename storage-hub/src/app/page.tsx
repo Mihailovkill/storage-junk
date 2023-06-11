@@ -27,9 +27,6 @@ export default function Home() {
         <p className={styles.infoRegistration}>
           For your own personal Blog you can regiter below:
         </p>
-        <div className={styles.registerButtonContainer}>
-          <Link href="/registration" className={styles.registrationLink}></Link>
-        </div>
       </div>
 
       <div className={styles.cardContainer}>
