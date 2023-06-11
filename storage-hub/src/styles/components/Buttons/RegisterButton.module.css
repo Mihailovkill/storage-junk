@@ -1,0 +1,16 @@
+/* components/RegisterButton.module.css */
+.registerButton {
+  background-color: #0070f3; /* This is just a sample color. Change to your preference */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.registerButton:hover {
+  background-color: #0051a2; /* This is just a sample color. Change to your preference */
+}
